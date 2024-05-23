@@ -63,7 +63,7 @@ const WhatIDo = () => {
           >
             <SwiperSlide className="w-full">
               <Image
-                src="/whatIDo1.jpg"
+                src="/cv_web/whatIDo1.jpg"
                 alt="What I do 1"
                 width={300}
                 height={200}
@@ -72,7 +72,7 @@ const WhatIDo = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                src="/whatIDo2.jpg"
+                src="/cv_web/whatIDo2.jpg"
                 alt="What I do 2"
                 width={300}
                 height={200}
@@ -81,7 +81,7 @@ const WhatIDo = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Image
-                src="/whatIDo3.jpg"
+                src="/cv_web/whatIDo3.jpg"
                 alt="What I do 3"
                 width={300}
                 height={200}

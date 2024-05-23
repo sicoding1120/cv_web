@@ -17,13 +17,13 @@ const config: Config = {
         },
       },
       backgroundImage: {
-        bg1: "url('/bg-heroSec.png')",
-        bg2: "url('/bg1.jpg')",
-        bg3: "url('/bg-MyGoals.png')",
+        bg1: "url('/cv_web/bg-heroSec.png')",
+        bg2: "url('/cv_web/bg1.jpg')",
+        bg3: "url('/cv_web/bg-MyGoals.png')",
       },
       backgroundColor: {
         bg: "#2C3E50",
-      }
+      },
     },
   },
   plugins: [require("daisyui")],
