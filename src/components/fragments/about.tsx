@@ -48,7 +48,7 @@ const About = () => {
               >
                 Hello, my name is Daffa Hafizh Firdaus, I m a web junior
                 developer, now studying at a vocational Islamic boarding school
-                Madinatul Koran, at Madinatul Koran Vocational School I sat on a
+                MadinatulQuran, at Madinatul Koran Vocational School I sat on a
                 bench 10th grade I want to become a web senior in the next 3
                 years developers
               </p>
