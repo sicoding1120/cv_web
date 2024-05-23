@@ -28,7 +28,7 @@ const HeroSection = () => {
         }, typingSpeed);
         return () => clearInterval(interval);
       }, []);
-
+  
   return (
     <section className="w-full lg:h-screen md:h-full bg-bg1 md:px-14 pb-44 px-6 md:py-14  bg-cover">
       <div className="w-full h-full flex flex-col-reverse md:flex-col-reverse lg:flex-row gap-2 items-center md:items-start">

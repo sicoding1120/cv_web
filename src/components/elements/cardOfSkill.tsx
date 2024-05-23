@@ -25,15 +25,6 @@ const CardSkill = ({
     SiTypescript: SiTypescript,
   };
 
-const [currentIndex, setCurrentIndex] = useState(0);
-
-useEffect(() => {
-  const intervalId = setInterval(() => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % dataSkill.length);
-  }, 2000); // Set the interval duration
-
-  return () => clearInterval(intervalId);
-}, [dataSkill]);
   
   return (
     <div className="relative  h-full w-full flex items-center justify-center">
@@ -49,7 +40,6 @@ useEffect(() => {
               "hover:border-blue-600": item.color === "blue-600",
               "hover:border-black": item.color === "black",
               "hover:border-sky-400": item.color === "sky-400",
-              "rotate-animation": index === currentIndex,
             },
             item.className
           );

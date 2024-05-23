@@ -67,7 +67,7 @@ const WhatIDo = () => {
                 alt="What I do 1"
                 width={300}
                 height={200}
-                className="w-full md:h-[450px] h-[250px]"
+                className="w-full md:h-[450px] h-[250px] rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -76,7 +76,7 @@ const WhatIDo = () => {
                 alt="What I do 2"
                 width={300}
                 height={200}
-                className="w-full md:h-[450px] h-[250px]"
+                className="w-full md:h-[450px] h-[250px] rounded-xl"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -85,7 +85,7 @@ const WhatIDo = () => {
                 alt="What I do 3"
                 width={300}
                 height={200}
-                className="w-full md:h-[450px] h-[250px]"
+                className="w-full md:h-[450px] h-[250px] rounded-xl"
               />
             </SwiperSlide>
           </Swiper>{" "}

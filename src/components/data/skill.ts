@@ -32,7 +32,7 @@ export const cardSkill = [
   {
     id: 2,
     title: "CSS",
-    description: "lorem",
+    description: "",
     className: "orbit2 -left-[20px] top-[36px]",
     hover: "border-blue-500",
     icon: "FaCss3Alt",
@@ -59,7 +59,7 @@ export const cardSkill = [
   {
     id: 3,
     title: "JavaScript",
-    description: "lorem",
+    description: "",
     className: "orbit3",
     hover: "border-yellow-300",
     icon: "IoLogoJavascript",
@@ -91,7 +91,7 @@ export const cardSkill = [
   {
     id: 4,
     title: "TypeScript",
-    description: "lorem",
+    description: "",
     className: "orbit4",
     hover: "border-blue-600",
     icon: "SiTypescript",
@@ -123,7 +123,7 @@ export const cardSkill = [
   {
     id: 5,
     title: "Next.js",
-    description: "lorem",
+    description: "",
     className: "orbit5",
     hover: "border-black",
     icon: "RiNextjsFill",
@@ -155,7 +155,7 @@ export const cardSkill = [
   {
     id: 6,
     title: "React.js",
-    description: "lorem",
+    description: "",
     className: "orbit6",
     hover: "border-sky-400",
     icon: "RiReactjsFill",
@@ -182,7 +182,7 @@ export const cardSkill = [
   {
     id: 7,
     title: "Tailwind CSS",
-    description: "lorem",
+    description: "",
     className: "orbit7",
     hover: "border-sky-400",
     icon: "RiTailwindCssFill",
