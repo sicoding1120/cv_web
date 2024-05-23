@@ -197,7 +197,7 @@ const Experience = () => {
                 </p>
               </div>
               <Image
-                src={`/portofolio/porto${index + 1}.png`}
+                src={`/cv_web/portofolio/porto${index + 1}.png`}
                 alt={""}
                 width={200}
                 height={200}

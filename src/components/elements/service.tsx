@@ -8,17 +8,17 @@ export default function Service() {
   const partners = [
     {
       name: "web dev",
-      logo: "/icons-dekstop.png ",
+      logo: "/cv_web/icons-dekstop.png ",
       ket: "We are dedicated to developing projects that reflect our vision and values.",
     },
     {
       name: "ui/ux design",
-      logo: "/icons-uiux.png",
+      logo: "/cv_web/icons-uiux.png",
       ket: "Creating works that inspire and push the boundaries of creativity.",
     },
     {
       name: "mobile app dev",
-      logo: "/icons-mobile.png",
+      logo: "/cv_web/icons-mobile.png",
       ket: "Every project we undertake is a reflection of our commitment to quality and excellence.",
     },
   ];

@@ -54,7 +54,7 @@ const HeroSection = () => {
         </div>
         <div className="lg:w-1/2 md:w-[40rem] w-[23rem] md:h-full px-6">
           <Image
-            src={"/imgContent1.png"}
+            src={"/cv_web/imgContent1.png"}
             alt={""}
             width={300}
             height={300}

@@ -8,7 +8,7 @@ const About = () => {
       <div className=" w-full h-full flex flex-col-reverse md:flex-col-reverse lg:flex-row gap-14 items-center md:items-center lg::items-start">
         <div className="lg:w-1/2 md:w-[40rem] w-full h-full" data-aos="fade-up">
           <Image
-            src={"/imgContent2.png"}
+            src={"/cv_web/imgContent2.png"}
             alt={""}
             width={300}
             height={300}
