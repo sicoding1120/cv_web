@@ -47,12 +47,12 @@ const HeroSection = () => {
           </div>
           <div className="flex gap-4 md:justify-center lg:justify-start md:items-center lg:items-start md:w-full lg:w-2/3">
             <button className="btn lg:w-1/3 md:text-xl lg:text-sm text-sm h-full capitalize text-color-secondary bg-color-accent border border-color-accent hover:text-color-accent hover:bg-transparent hover:border-color-accent">
-              more about me
+              more about me x
             </button>
             <BtnGithub />
           </div>
         </div>
-        <div className="lg:w-1/2 md:w-[40rem] w-[23rem] md:h-full px-6 lg:py-0 xl:py-24">
+        <div className="lg:w-1/2 md:w-[40rem] w-[23rem] md:h-full px-6  ">
           <Image
             src={"/cv_web/imgContent1.png"}
             alt={""}

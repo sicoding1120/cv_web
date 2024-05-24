@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className="w-full lg:h-[110vh] md:h-full md:px-14 px-6 py-24">
       <div className=" w-full h-full flex flex-col-reverse md:flex-col-reverse lg:flex-row gap-14 items-center md:items-center lg::items-start">
-        <div className="lg:w-1/2 md:w-[40rem] w-full h-full xl:py-24 lg:py-0" data-aos="fade-up">
+        <div className="lg:w-1/2 md:w-[40rem] w-full h-full" data-aos="fade-up">
           <Image
             src={"/cv_web/imgContent2.png"}
             alt={""}
