@@ -52,14 +52,14 @@ const About = () => {
                 bench 10th grade I want to become a web senior in the next 3
                 years developers
               </p>
-              <p>
+              <p className="lg:text-lg md:text-2xl text-color-primary font-semibold">
                 ketertarikan saya tehadap ilmu coding atau ilmu teknologi itu
                 karena saya dahulu senang memmainkan laptop atau komputer untuk
                 membuat design atau memnggambar apapun di aplikasi paint atau
                 aplikasi lain di laptop jadi saya menyukai hal itu sampai
                 sekarang
               </p>
-              <p>
+              <p className="lg:text-lg md:text-2xl text-color-primary font-semibold">
                 tujuan saya untuk beberapa tahun kedepan ialah memjadi fullstack
                 developer, senior web developer, app mobile developer yang
                 handal.
