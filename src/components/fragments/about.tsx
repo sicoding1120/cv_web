@@ -56,19 +56,17 @@ const About = () => {
                 className="lg:text-lg md:text-2xl text-color-primary font-semibold"
                 data-aos="fade-up"
               >
-                ketertarikan saya tehadap ilmu coding atau ilmu teknologi itu
-                karena saya dahulu senang memmainkan laptop atau komputer untuk
-                membuat design atau memnggambar apapun di aplikasi paint atau
-                aplikasi lain di laptop jadi saya menyukai hal itu sampai
-                sekarang
+                im interested in coding or technology because I used to like
+                playing on laptops or computers create a design or draw anything
+                using paint or other applications on the laptop so I like it
+                until Now
               </p>
               <p
                 className="lg:text-lg md:text-2xl text-color-primary font-semibold"
                 data-aos="fade-up"
               >
-                tujuan saya untuk beberapa tahun kedepan ialah memjadi fullstack
-                developer, senior web developer, app mobile developer yang
-                handal.
+                My goal for the next few years is to become a full stack
+                developer, senior web developer, mobile app developer reliable.
               </p>
             </div>
             <div
