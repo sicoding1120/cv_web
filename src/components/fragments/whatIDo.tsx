@@ -3,6 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/effect-cards";
 import Image from 'next/image';
 import { EffectCards } from 'swiper/modules';
+import { Autoplay, } from "swiper/modules";
+import { useRouter } from 'next/router';
+import Link from 'next/link';
+
+
 
 const cardWhatIdo = [
   {
@@ -21,6 +26,9 @@ const cardWhatIdo = [
 
 
 const WhatIDo = () => {
+  const handleMouse = (index: any) => {
+    
+  }
   return (
     <section className="w-full lg:h-full md:px-14 px-6 flex flex-col gap-4 py-8">
       <div className="flex justify-between items-center w-full">
@@ -58,10 +66,14 @@ const WhatIDo = () => {
           <Swiper
             effect={"cards"}
             grabCursor={true}
-            modules={[EffectCards]}
+            modules={[EffectCards, Autoplay]}
             className="w-full"
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
           >
-            <SwiperSlide className="w-full">
+            <SwiperSlide className="w-full" id='01'>
               <Image
                 src="/cv_web/whatIDo1.jpg"
                 alt="What I do 1"
@@ -70,7 +82,7 @@ const WhatIDo = () => {
                 className="w-full md:h-[450px] h-[250px] rounded-xl"
               />
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide id='02'>
               <Image
                 src="/cv_web/whatIDo2.jpg"
                 alt="What I do 2"
@@ -79,7 +91,7 @@ const WhatIDo = () => {
                 className="w-full md:h-[450px] h-[250px] rounded-xl"
               />
             </SwiperSlide>
-            <SwiperSlide>
+            <SwiperSlide id='03'>
               <Image
                 src="/cv_web/whatIDo3.jpg"
                 alt="What I do 3"
@@ -92,10 +104,11 @@ const WhatIDo = () => {
         </div>
         <div className="lg:w-1/2 w-full h-full grid md:grid-cols-2 grid-cols-1 gap-4 justify-center items-center ">
           {cardWhatIdo.map((items, index) => (
-            <div
+            <Link href={`#${index}${index + 1}`}
               className="w-full h-full flex flex-col gap-2 rounded-xl group transition-all border-2 shadow-md border-white hover:border-color-accent justify-center items-center px-4"
               key={index}
               data-aos="fade-up"
+              onMouseEnter={() =>handleMouse(index)}
             >
               <h2 className="text-[75px] font-bold relative md:right-[90px] right-[120px] group-hover:text-color-accent transition-all bottom-6 text-black/5 ">{`0${
                 index + 1
@@ -106,7 +119,7 @@ const WhatIDo = () => {
                 </h4>
                 <p className="text-center">{items.ket}</p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

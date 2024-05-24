@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image';
-import Link from 'next/link';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -41,16 +41,28 @@ const About = () => {
                 <div className="md:w-8 w-4 h-1 bg-color-accent/80"></div>
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-4">
               <p
-                className="lg:text-lg md:text-2xl text-color-primary"
+                className="lg:text-lg md:text-2xl text-color-primary font-semibold"
                 data-aos="fade-up"
               >
                 Hello, my name is Daffa Hafizh Firdaus, I m a web junior
                 developer, now studying at a vocational Islamic boarding school
-                MadinatulQuran, at Madinatul Koran Vocational School I sat on a
+                MadinatulQuran, at MadinatulQuran Vocational School I sat on a
                 bench 10th grade I want to become a web senior in the next 3
                 years developers
+              </p>
+              <p>
+                ketertarikan saya tehadap ilmu coding atau ilmu teknologi itu
+                karena saya dahulu senang memmainkan laptop atau komputer untuk
+                membuat design atau memnggambar apapun di aplikasi paint atau
+                aplikasi lain di laptop jadi saya menyukai hal itu sampai
+                sekarang
+              </p>
+              <p>
+                tujuan saya untuk beberapa tahun kedepan ialah memjadi fullstack
+                developer, senior web developer, app mobile developer yang
+                handal.
               </p>
             </div>
             <div
@@ -69,6 +81,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

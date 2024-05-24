@@ -7,6 +7,8 @@ import portofolio from "../data/portofolio.json";
 import { GiBookAura } from "react-icons/gi";
 import Link from "next/link";
 import AnimatedPage from "../elements/lib/AnimatedPage";
+import { FaLaptopCode } from "react-icons/fa6";
+
 
 const Experience = () => {
   const [portofolioUp, setPortofolioUp] = useState([...portofolio]);
@@ -247,7 +249,7 @@ const Experience = () => {
                   <div
                     className={`w-24 h-24 bg-color-primary relative bottom-8 rounded-xl flex justify-center items-center md:group-hover:right-44 lg:group-hover:right-60 group-hover:right-48 right-0 transition-all group-hover:bg-color-accent`}
                   >
-                    <Image src={""} alt={""} />
+                    <FaLaptopCode/>
                   </div>
                 </div>
                 <div className="w-full h-full px-4 flex flex-col gap-4 justify-center">
