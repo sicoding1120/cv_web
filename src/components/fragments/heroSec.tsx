@@ -52,7 +52,7 @@ const HeroSection = () => {
             <BtnGithub />
           </div>
         </div>
-        <div className="lg:w-1/2 md:w-[40rem] w-[23rem] md:h-full px-6 xl:py-24">
+        <div className="lg:w-1/2 md:w-[40rem] w-[23rem] md:h-full px-6 lg:py-0 xl:py-24">
           <Image
             src={"/cv_web/imgContent1.png"}
             alt={""}
